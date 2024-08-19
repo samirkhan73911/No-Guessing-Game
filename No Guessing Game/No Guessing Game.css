@@ -1,0 +1,90 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(171, 209, 218);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+section {
+
+
+    width: 650px;
+    padding: 10px 10px;
+    border: 1px solid brown;
+    border-radius: 10px;
+    background-color: rgb(124, 192, 219);
+
+
+}
+
+#header {
+    background-color: rgba(218, 112, 214, 0.76);
+    text-align: center;
+    border: 1.5px solid rgba(255, 255, 255, 0.18);
+    border-radius: 10px;
+    width: 500px;
+    margin: auto;
+    backdrop-filter: blur(30px);
+    box-shadow: 0px 0px 30px rgba(227, 228, 237, 0.37);
+
+}
+
+.guessarea {
+
+    margin: 5px ;
+    padding: 10px;
+
+
+}
+#label{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+#guessField{
+   
+    border-radius: 10px;
+    border: 1.5px solid rgba(111, 0, 255, 0.30);
+    background-color: rgb(204, 198, 198);
+   
+}
+
+#subbtn{
+   
+    border-radius: 10px;
+    border: 1 solid black;
+    cursor: pointer;
+    background-color: yellow;
+
+}
+#subbtn:hover{
+   
+    
+    background-color: rgba(255, 255, 0, 0.637);
+
+}
+
+
+.display{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+
+}
+.primaryfont{
+    font-size: 1rem;
+    font-weight: bold;
+}
+#lowOrHigh{
+    text-align: center;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>No Guessing Game</title>
+    <link rel="stylesheet" href="No Guessing Game.css">
+</head>
+
+<body>
+
+    <section>
+        <div id="header">
+            <h1>Number Guessing Game</h1>
+            <h4>Rules:</h4>
+            <p>Try and Guess a Ramdom number between 1 and 100.</p>
+            <p>You have 10 attemps to guess the Right number.</p>
+        </div>
+        <div id="main" class="display">
+            <form class="display" id="form">
+                <label id="label" class="guessarea" for="guessField">Guess the Number</label>
+                <input type="text" class="guessarea primaryfont" id="guessField">
+                <p  class="primaryfont" id="lowOrHigh"></p>
+                <input type="submit" id="subbtn" value="Submit Guess" class="guessarea primaryfont">
+            </form>
+            <div class="result">
+                
+                <p class="primaryfont">Previous Guesses: <span id="guesses"></span></p>
+                <p class="primaryfont">Attemps Remaining:  <span id="Attemps">10</span></p>
+                
+            </div>
+        </div>
+    </section>
+
+
+    <script src="No Guessing Game.js"></script>
+</body>
+
+</html>
